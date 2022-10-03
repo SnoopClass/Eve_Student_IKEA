@@ -3,6 +3,7 @@
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -18,7 +19,9 @@
                         <viewLayoutGuide key="safeArea" id="CpA-b8-ciJ"/>
                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="person" catalog="system" id="F3P-8F-8Jm"/>
+                    <tabBarItem key="tabBarItem" title="" id="F3P-8F-8Jm">
+                        <imageReference key="image" image="person" catalog="system" symbolScale="medium"/>
+                    </tabBarItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KVi-ce-Nlc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -57,7 +60,9 @@
                         <viewLayoutGuide key="safeArea" id="40X-wA-8Td"/>
                         <color key="backgroundColor" systemColor="systemMintColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="heart" catalog="system" id="kMD-cJ-mXt"/>
+                    <tabBarItem key="tabBarItem" title="" id="kMD-cJ-mXt">
+                        <imageReference key="image" image="heart" catalog="system" symbolScale="medium"/>
+                    </tabBarItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KWL-IN-Zcs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -74,7 +79,9 @@
                         <viewLayoutGuide key="safeArea" id="6Hw-hw-R8w"/>
                         <color key="backgroundColor" systemColor="systemIndigoColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="basket" catalog="system" id="16b-Ck-BvF"/>
+                    <tabBarItem key="tabBarItem" title="" id="16b-Ck-BvF">
+                        <imageReference key="image" image="basket" catalog="system" symbolScale="medium"/>
+                    </tabBarItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fQ7-rE-vOZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -91,7 +98,9 @@
                         <viewLayoutGuide key="safeArea" id="3A7-Rq-rAM"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="house" catalog="system" id="V0Z-UL-oIr"/>
+                    <tabBarItem key="tabBarItem" title="" id="V0Z-UL-oIr">
+                        <imageReference key="image" image="house" catalog="system" symbolScale="medium"/>
+                    </tabBarItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8f4-LH-KTj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -108,7 +117,9 @@
                         <viewLayoutGuide key="safeArea" id="eaS-uL-uFL"/>
                         <color key="backgroundColor" systemColor="systemPinkColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="magnifyingglass" catalog="system" id="MEo-NW-0gH"/>
+                    <tabBarItem key="tabBarItem" title="" id="MEo-NW-0gH">
+                        <imageReference key="image" image="magnifyingglass" catalog="system" symbolScale="medium"/>
+                    </tabBarItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Pc-LL-2As" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
