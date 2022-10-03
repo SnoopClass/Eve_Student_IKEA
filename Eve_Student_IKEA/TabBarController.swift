@@ -10,6 +10,7 @@ import UIKit
 class TabBarController: UITabBarController {
 
     override func viewDidLoad() {
+        self.selectedIndex = 1
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
