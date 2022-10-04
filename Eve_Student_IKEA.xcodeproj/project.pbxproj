@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		3DCFD22928E989EF009F52F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCFD22828E989EF009F52F0 /* AppDelegate.swift */; };
 		3DCFD22B28E989EF009F52F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCFD22A28E989EF009F52F0 /* SceneDelegate.swift */; };
-		3DCFD22D28E989EF009F52F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCFD22C28E989EF009F52F0 /* ViewController.swift */; };
+		3DCFD22D28E989EF009F52F0 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCFD22C28E989EF009F52F0 /* TabBarController.swift */; };
 		3DCFD23028E989EF009F52F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCFD22E28E989EF009F52F0 /* Main.storyboard */; };
 		3DCFD23228E989F0009F52F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DCFD23128E989F0009F52F0 /* Assets.xcassets */; };
 		3DCFD23528E989F0009F52F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCFD23328E989F0009F52F0 /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		3DCFD22528E989EF009F52F0 /* Eve_Student_IKEA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eve_Student_IKEA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DCFD22828E989EF009F52F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DCFD22A28E989EF009F52F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3DCFD22C28E989EF009F52F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DCFD22C28E989EF009F52F0 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		3DCFD22F28E989EF009F52F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DCFD23128E989F0009F52F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DCFD23428E989F0009F52F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 			children = (
 				3DCFD22828E989EF009F52F0 /* AppDelegate.swift */,
 				3DCFD22A28E989EF009F52F0 /* SceneDelegate.swift */,
-				3DCFD22C28E989EF009F52F0 /* ViewController.swift */,
+				3DCFD22C28E989EF009F52F0 /* TabBarController.swift */,
 				3DCFD22E28E989EF009F52F0 /* Main.storyboard */,
 				3DCFD23128E989F0009F52F0 /* Assets.xcassets */,
 				3DCFD23328E989F0009F52F0 /* LaunchScreen.storyboard */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DCFD22D28E989EF009F52F0 /* ViewController.swift in Sources */,
+				3DCFD22D28E989EF009F52F0 /* TabBarController.swift in Sources */,
 				3DCFD22928E989EF009F52F0 /* AppDelegate.swift in Sources */,
 				3DCFD22B28E989EF009F52F0 /* SceneDelegate.swift in Sources */,
 			);
