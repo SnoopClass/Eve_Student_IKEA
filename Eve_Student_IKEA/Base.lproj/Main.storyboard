@@ -119,23 +119,23 @@
                                 <rect key="frame" x="0.0" y="47" width="390" height="1753"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jcs-RR-p4C">
-                                        <rect key="frame" x="0.0" y="0.0" width="390" height="1370"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="1380"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="n3n-zl-VNl">
-                                                <rect key="frame" x="0.0" y="0.0" width="390" height="1370"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="390" height="1380"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="arO-MQ-HoF">
-                                                        <rect key="frame" x="0.0" y="0.0" width="390" height="170"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="390" height="180"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6HL-mz-qSm">
-                                                                <rect key="frame" x="20" y="70" width="350" height="50"/>
+                                                                <rect key="frame" x="20" y="80" width="350" height="50"/>
                                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="50" id="7aa-J6-xAR"/>
                                                                 </constraints>
                                                             </view>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="검색" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UyS-hX-UrD">
-                                                                <rect key="frame" x="20" y="20" width="350" height="30"/>
+                                                                <rect key="frame" x="20" y="30" width="350" height="30"/>
                                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -148,47 +148,47 @@
                                                             <constraint firstItem="6HL-mz-qSm" firstAttribute="top" secondItem="UyS-hX-UrD" secondAttribute="bottom" constant="20" id="Gsk-LN-9Mv"/>
                                                             <constraint firstItem="UyS-hX-UrD" firstAttribute="leading" secondItem="arO-MQ-HoF" secondAttribute="leading" constant="20" id="Kri-51-uuY"/>
                                                             <constraint firstAttribute="trailing" secondItem="UyS-hX-UrD" secondAttribute="trailing" constant="20" id="UEi-GC-LEn"/>
-                                                            <constraint firstItem="UyS-hX-UrD" firstAttribute="top" secondItem="arO-MQ-HoF" secondAttribute="top" constant="20" id="akX-vc-oaW"/>
-                                                            <constraint firstAttribute="height" constant="170" id="jk5-Ay-JNV"/>
+                                                            <constraint firstItem="UyS-hX-UrD" firstAttribute="top" secondItem="arO-MQ-HoF" secondAttribute="top" constant="30" id="akX-vc-oaW"/>
+                                                            <constraint firstAttribute="height" constant="180" id="jk5-Ay-JNV"/>
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D9r-xi-jVb">
-                                                        <rect key="frame" x="0.0" y="170" width="390" height="200"/>
+                                                        <rect key="frame" x="0.0" y="180" width="390" height="200"/>
                                                         <color key="backgroundColor" systemColor="systemMintColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="200" id="JmY-4f-Lk0"/>
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3RS-CD-ekC">
-                                                        <rect key="frame" x="0.0" y="370" width="390" height="200"/>
+                                                        <rect key="frame" x="0.0" y="380" width="390" height="200"/>
                                                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="200" id="MSC-Tv-Yk7"/>
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RWe-lG-rnC">
-                                                        <rect key="frame" x="0.0" y="570" width="390" height="200"/>
+                                                        <rect key="frame" x="0.0" y="580" width="390" height="200"/>
                                                         <color key="backgroundColor" systemColor="systemPinkColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="200" id="lVS-67-hSO"/>
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pzq-Yq-YaQ">
-                                                        <rect key="frame" x="0.0" y="770" width="390" height="200"/>
+                                                        <rect key="frame" x="0.0" y="780" width="390" height="200"/>
                                                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="200" id="qYu-pV-QZU"/>
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rlz-nC-0vw">
-                                                        <rect key="frame" x="0.0" y="970" width="390" height="200"/>
+                                                        <rect key="frame" x="0.0" y="980" width="390" height="200"/>
                                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="200" id="CYK-tY-LIs"/>
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wl3-Xo-agE">
-                                                        <rect key="frame" x="0.0" y="1170" width="390" height="200"/>
+                                                        <rect key="frame" x="0.0" y="1180" width="390" height="200"/>
                                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="200" id="v3f-Xj-WpE"/>
